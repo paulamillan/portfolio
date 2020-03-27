@@ -105,6 +105,39 @@ h1{
     font-size: 16px;
     margin-left: 15px;
   }
+  /*---------- 8. GALLERY STYLES ----------*/
+.filter_menu ul {
+	margin:0px 0px 20px 0px;
+	padding:0;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+.filter_menu ul li {
+	font-size:16px;
+	margin:0px 15px 0px 0px;
+}
+.filter_menu ul li a {
+	color:#000;
+	font-weight: bold;
+	padding:3px 25px 5px 0px;
+	display: block;
+	cursor:pointer;
+	text-decoration: none;
+}
+.filter_menu ul li a:hover {
+	border-bottom: 2px solid #000;
+}
+.filter_menu ul li a.active {
+	border-bottom: 2px solid #000;
+}
+
+/* .ux-process {
+ justify-content: center;
+ height: 40%;
+ width: 40%;
+} */
+
 .links2 {
     display: flex;
   }
@@ -119,6 +152,9 @@ h2{
     width: 90%;
     margin: 0 auto;
 
+}
+.work-title{
+padding-bottom: 30px;
 }
 .projects{
     margin: 0 auto;
@@ -135,7 +171,6 @@ h2{
 .project-img{
     width: 100%;
     margin-bottom: 50px;
-    cursor: pointer;
 }
 #work{
     height: 100hv;
@@ -154,6 +189,9 @@ margin: 5%;
 .project-link{
     margin-bottom: 80px;
     font-size: 15px;
+}
+.soon:hover{
+    color: #404040;
 }
 .blablabla{
     display: flex;
@@ -189,7 +227,7 @@ margin: 5%;
 }  
 .text{
     margin-left: 30px;
-    margin-top: 45px;
+    margin-top: 30px;
     font-size: 16px;
 }
 .abouttitle{
@@ -271,7 +309,29 @@ footer{
 #footer{
     font-size: 14px;
 }
-
+.mobile-screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#D44139;
+    background-color: #F5C6C3;
+    height: 100vh;
+  }
+  
+  @media only screen and (max-width: 414px) {
+    .desktop{
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 415px) {
+    .desktop{
+      display: block;
+    }
+  .mobile-screen{
+    display: none;
+  }
+  }
 /* animation */
 
 
