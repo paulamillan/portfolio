@@ -1,0 +1,68 @@
+.mobile-screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#D44139;
+    background-color: #F5C6C3;
+    height: 100vh;
+  }
+  
+@media only screen and (max-width: 414px) {
+    .desktop{
+      display: none;
+    }
+  }
+  
+  @media only screen and (min-width: 415px) {
+    .desktop{
+      display: block;
+    }
+  .mobile-screen{
+    display: none;
+  }
+  }
+
+  @media only screen and (min-width: 415px) and (max-width: 768px) {
+
+  }
+  
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+  
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  }
+  }
+  @media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    
+  }
+  
+  @media only screen and (min-width: 1441px) {
+    
+  }
+
+  @media screen and (max-width: 1400px) {
+
+/* Tablets Landscape */
+  @media (min-width: 992px) and (max-width: 1024px) {
+
+/* Tablets Portrait */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .profile{
+      height:20%;
+      width: 20%;
+    }
+    .aboutsection{
+      background-color: green;
+    }
+  }
+/* Medium Mobiles size */
+  @media screen and (max-width: 767px) {
+  }
+/* Small Mobiles size */
+  @media screen and (max-width: 360px) {
+  }
+
+  /* Extra Small Mobiles size */
+@media screen and (max-width: 319px) {
+}
