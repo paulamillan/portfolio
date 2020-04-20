@@ -131,7 +131,6 @@ h2{
     font-size: 22px;
     width: 90%;
     margin: 0 auto;
-
 }
 .work-title{
 padding-bottom: 30px;
@@ -147,6 +146,12 @@ padding-bottom: 30px;
     width: 45%;
     margin: 0 auto;
     text-align: center;
+}
+.project5{
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 24.776px;
 }
 .project-img{
     width: 100%;
@@ -186,32 +191,32 @@ margin: 5%;
     margin-bottom: 30px;
 }
 .aboutsection{
-    height: 92vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 0;
-    box-sizing: border-box;
     background-color: #F9F9F9;
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 130px;
 }
 .aboutme{
     margin: 0 auto;
     width: 80%;
-    display: flex;
-    align-items: flex-start;
-    font-size: 20px;
-    line-height: 28px;
-    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-column-gap: 25px;
+    justify-content: center;
 }
 .profile{
-    width: 100%;
-    height:100%;
+    align-self: flex-start;
 }  
+.profileimg{
+    width: 90%;
+    max-width: 100%;
+}
 .text{
-    margin-left: 25px;
     margin-top: 0px;
-    font-size: 16px;
+    line-height: 28px;
+    text-align: start;
+    align-self: center;
 }
 .abouttitle{
     margin-bottom: 22px;
@@ -298,29 +303,7 @@ footer{
 #footer{
     font-size: 14px;
 }
-.mobile-screen{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:#D44139;
-    background-color: #F5C6C3;
-    height: 100vh;
-  }
-  
-  @media only screen and (max-width: 414px) {
-    .desktop{
-      display: none;
-    }
-  }
-  
-  @media only screen and (min-width: 415px) {
-    .desktop{
-      display: block;
-    }
-  .mobile-screen{
-    display: none;
-  }
-  }
+
 /* animation */
 
 
